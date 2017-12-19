@@ -5,21 +5,25 @@
     <title>Барбершоп «Бородинский»</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="wrapper">
-      <header class="main-header">
+    <header class="main-header">
       <nav class="main-navigation">
-        <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="price.html">Прайс-лист</a></li>
-          <li><a href="shop.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <ul class="login">
-          <li><a href="login.html">Вход</a></li>
-        </ul>
+        <div class="site-navigation-wrapper">
+          <div class="site-navigation-container">
+            <ul class="site-navigation">
+              <li><a href="info.html">Информация</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="price.html">Прайс-лист</a></li>
+              <li><a href="shop.html">Магазин</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="login">
+              <li><a href="login.html">Вход</a></li>
+            </ul>
+          </div>
+        </div>
         <div class="logo">
           <img src="img/index-logo.svg" width="371" height="155" alt="Логотип">
         </div>
@@ -103,7 +107,8 @@
           </section>
         </div>
       </main>
-      <footer>
+      <footer class="main-footer">
+        <div class="footer-container">
         <div class="contact-info">
           <p>Барбершоп «Бородинский»
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д.19/8
@@ -129,6 +134,7 @@
           <b>Разработано</b>
           <a href="https://htmlacademy.ru/intensive/htmlcss">HTML academy</a>
         </div>
+      </div>
       </footer>
       <section class="modal modal-login">
         <h2>Личный кабинет</h2>
@@ -160,5 +166,4 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651652!2d30.320894616387353!3d59.93879418187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1513612677954" allowfullscreen></iframe>
         <span class="modal-close">Закрыть</span>
       </section>
-    </div>
   </body>
